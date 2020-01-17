@@ -35,6 +35,12 @@ To claim an issue please comment on the issue. In case of no activity on the iss
 
 Please help us follow the best practice to make it easy for the reviewer as well as the contributor. We want to focus on the code quality more than on managing pull request ethics.
 
+0. Project specific guidelines. 
+
+	0.a We would not entertain any hard coded strings or colors etc. Please add the resoure in the corrosponding xml.
+
+	0.b Attach Screenshots or video (whichever applicable) with the PR. 
+
 1. People before code: If any of the following rules are violated, the pull-requests must not be rejected. This is to create an easy and joyful onboarding process for new programmers and first-time contributors.
 
 2. Single commit per pull request and name the commit as something meaningful, example: Adding <-your-name-> in students/mentors section.
