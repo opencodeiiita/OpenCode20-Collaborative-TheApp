@@ -1,5 +1,6 @@
 package com.example.opencode20;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -94,6 +95,12 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_tools) {
 
         } else if (id == R.id.nav_share) {
+
+            Intent share = new Intent(Intent.ACTION_SEND);
+            share.setType("text/plain");
+            String info="Your journey into open source starts here. Register yourself at https://opencodeiiita.github.io/";
+            share.putExtra(Intent.EXTRA_TEXT,info);
+            startActivity(Intent.createChooser(share,"Share "));
 
         } else if (id == R.id.nav_send) {
 
