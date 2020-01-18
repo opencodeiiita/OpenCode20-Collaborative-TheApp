@@ -9,9 +9,10 @@
 
     <string name="menu_home">Home</string>
     <string name="menu_about">About</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
+    <string name="menu_gallery">LeaderBoard</string>
+    <string name="menu_slideshow">Mentors</string>
+    <string name="menu_tools">Participants</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="communicate">Communicate</string>
 </resources>
