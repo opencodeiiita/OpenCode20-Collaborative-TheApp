@@ -1,5 +1,5 @@
 # OpenCode20-Collaborative-TheApp
-This is the official app for OpenCode'20 that fetches you contest details on the go.
+This is the official app for OpenCode'20 that fetches you contest details on the go..
 
 ## Why OpenCode app
 
