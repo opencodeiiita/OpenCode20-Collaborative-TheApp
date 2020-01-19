@@ -14,11 +14,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="104dp"
-        android:layout_height="60dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/car" />
+        app:srcCompat="@drawable/opencode" />
+
 
     <TextView
         android:layout_width="match_parent"
