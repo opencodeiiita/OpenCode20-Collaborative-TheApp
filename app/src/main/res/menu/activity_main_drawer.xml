@@ -27,7 +27,7 @@
 
     </group>
 
-    <item android:title="@string/communicate">
+    <item android:title="Communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
