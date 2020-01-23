@@ -3,12 +3,6 @@ package com.example.opencode20;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import android.text.method.LinkMovementMethod;
-import android.view.View;
-
 import androidx.core.view.GravityCompat;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 
@@ -22,7 +16,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -42,6 +35,9 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+        getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container,new HomeFragment()).commit();
     }
 
     @Override
@@ -85,14 +81,24 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container,new HomeFragment()).commit();
+
         } else if (id == R.id.nav_about) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container,new AboutFragment()).commit();
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_leaderboard) {
+             getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container,new LeaderboardFragment()).commit();
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_mentors) {
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container,new MentorsFragment()).commit();
 
-        } else if (id == R.id.nav_tools) {
+        } else if (id == R.id.nav_participants){
+            getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container,new ParticipantsFragment()).commit();
 
         } else if (id == R.id.nav_share) {
 

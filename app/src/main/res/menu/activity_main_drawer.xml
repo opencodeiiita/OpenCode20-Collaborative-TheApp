@@ -13,15 +13,15 @@
             android:icon="@drawable/ic_menu_about"
             android:title="@string/menu_about" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_leaderboard"
             android:icon="@drawable/ic_menu_send"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_mentors"
             android:icon="@android:drawable/checkbox_on_background"
             android:title="@string/menu_slideshow" />
         <item
-            android:id="@+id/nav_tools"
+            android:id="@+id/nav_participants"
             android:icon="@android:drawable/ic_input_add"
             android:title="@string/menu_tools" />
 
