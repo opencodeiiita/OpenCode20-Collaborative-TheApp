@@ -1,15 +1,15 @@
 # OpenCode20-Collaborative-TheApp
-This is the official app for OpenCode'20 that fetches you contest details on the go.
+This is the official app for OpenCode'20 that fetches you contest details on the go..
 
 ## Why OpenCode app
 
-In the present scenerio there where each and every device is online, there was a need for a one stop place for all information regarding OpenCode'20.
+In the present scenario there where each and every device is online, there was a need for a one stop place for all information regarding  OpenCode'20.
 
 ## Communicate
 Chat with us on [Slack](https://opencodeiiita.slack.com/) and Like us on [Facebook](https://www.facebook.com/opencodeiiita/)
 
 ## Requirements
-Basic Git and Github. (Feel free to contact any mentor if you have any issue regarding Git or Github.)
+Basic Git and Github. (Feel free to contact any mentor if you have any issue regarding Git or Github)
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ Please help us follow the best practice to make it easy for the reviewer as well
 
 0. Project specific guidelines. 
 
-	0.a We would not entertain any hard coded strings or colors etc. Please add the resoure in the corrosponding xml.
+	0.a We will not entertain any hard coded strings or colors etc. Please add the resource in the corrosponding xml.
 
 	0.b Attach Screenshots or video (whichever applicable) with the PR. 
 
