@@ -36,8 +36,7 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
 
-        getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fragment_container,new HomeFragment()).commit();
+
     }
 
     @Override
