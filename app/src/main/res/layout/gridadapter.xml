@@ -26,7 +26,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/userDP"
+                android:id="@+id/user_DP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
